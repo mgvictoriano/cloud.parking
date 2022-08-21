@@ -4,10 +4,8 @@ package com.br.dio.cloud.parking.service;
 import java.time.LocalDateTime;
 import java.util.List;
 import java.util.UUID;
-
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
-
 import com.br.dio.cloud.parking.exception.ParkingNotFoundException;
 import com.br.dio.cloud.parking.model.Parking;
 import com.br.dio.cloud.parking.repository.ParkingRepository;

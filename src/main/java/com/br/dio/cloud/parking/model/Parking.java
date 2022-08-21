@@ -1,7 +1,6 @@
 package com.br.dio.cloud.parking.model;
 
 import java.time.LocalDateTime;
-
 import javax.persistence.Entity;
 import javax.persistence.Id;
 

@@ -6,9 +6,9 @@ import com.br.dio.cloud.parking.controller.dto.ParkingDTO;
 import com.br.dio.cloud.parking.model.Parking;
 import org.modelmapper.ModelMapper;
 import org.springframework.stereotype.Component;
-
 import java.util.List;
 import java.util.stream.Collectors;
+
 
 @Component
 public class ParkingMapper {

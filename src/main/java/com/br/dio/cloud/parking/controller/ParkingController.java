@@ -19,16 +19,13 @@ import java.util.List;
 @Api(tags = "Parking Controller")
 public class ParkingController {
 
-
     private final ParkingService parkingService;
     private final ParkingMapper parkingMapper;
-
 
     public ParkingController(ParkingService parkingService, ParkingMapper parkingMapper) {
         this.parkingService = parkingService;
         this.parkingMapper = parkingMapper;
     }
-
 
     @GetMapping
     @ApiOperation("Find all parkings")
@@ -74,4 +71,3 @@ public class ParkingController {
     }
 
 }
-
