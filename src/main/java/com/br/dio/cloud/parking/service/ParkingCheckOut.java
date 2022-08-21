@@ -1,5 +1,7 @@
 package com.br.dio.cloud.parking.service;
 
+import com.br.dio.cloud.parking.model.Parking;
+
 import java.time.LocalDateTime;
 import java.time.temporal.ChronoUnit;
 
@@ -33,11 +35,11 @@ public class ParkingCheckOut {
         return bill;
     }
 
+
     public static Double getBill(Parking parking) {
         return getBill(parking.getEntryDate(), parking.getExitDate());
 
     }
-
 
 
 }
