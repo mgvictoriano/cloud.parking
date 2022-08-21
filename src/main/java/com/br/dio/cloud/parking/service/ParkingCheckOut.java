@@ -35,6 +35,7 @@ public class ParkingCheckOut {
 
     public static Double getBill(Parking parking) {
         return getBill(parking.getEntryDate(), parking.getExitDate());
+
     }
 
 
