@@ -10,7 +10,7 @@ import org.springframework.transaction.annotation.Transactional;
 
 import com.br.dio.cloud.parking.exception.ParkingNotFoundException;
 import com.br.dio.cloud.parking.model.Parking;
-import com.br.dio.cloud.parking.model.repository.ParkingRepository;
+import com.br.dio.cloud.parking.repository.ParkingRepository;
 
 @Service
 public class ParkingService {
